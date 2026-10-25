@@ -2,8 +2,8 @@
 
 Static English and Chinese website for AI Text Assistant for Windows.
 
-- English: https://fasterate.github.io/AI-text-assistant/
-- 中文: https://fasterate.github.io/AI-text-assistant/zh/
+- English: https://fasterate.github.io/
+- 中文: https://fasterate.github.io/zh/
 - Desktop application and downloads: https://github.com/0x140ED8/intelligent-writing-free
 
 ## Deploy

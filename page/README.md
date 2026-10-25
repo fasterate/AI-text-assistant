@@ -105,9 +105,9 @@ python -m http.server 8080 --directory page --bind 127.0.0.1
 3. 打开 **Actions → Deploy project page → Run workflow**，在 `main` 分支运行一次。此后修改 `page/` 或该工作流并推送到 `main` 时，会自动部署。
 4. 成功后可从工作流的部署链接访问网站。未配置自定义域名时，入口分别是：
 
-   - 默认英文首页：<https://fasterate.github.io/AI-text-assistant/>
-   - 中文：<https://fasterate.github.io/AI-text-assistant/zh/>
-   - 旧英文入口（跳转）：<https://fasterate.github.io/AI-text-assistant/en/>
+   - 默认英文首页：<https://fasterate.github.io/>
+   - 中文：<https://fasterate.github.io/zh/>
+   - 旧英文入口（跳转）：<https://fasterate.github.io/en/>
 
 工作流将 `page/` 的内容直接发布为网站根目录，访问 URL 中没有 `/page/`。中英文网页、视频和封面通过同一个工作流一起部署。
 
