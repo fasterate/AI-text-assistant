@@ -1034,6 +1034,18 @@ h3 {
 .site-footer > a:last-child {
   margin-left: auto;
 }
+.footer-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  margin-left: auto;
+}
+.footer-links a:hover,
+.footer-links a[aria-current="page"] {
+  color: var(--green);
+}
 
 @media (min-width: 1500px) {
   .hero {
