@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">纸墨 · 柴犬大头贴</title>
+  <desc id="desc">橙黄色柴犬，奶油白脸颊，圆润的纯头部头像，透明背景。</desc>
+  <g stroke="#68432D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21 37L18 17Q18 11 23 14L37 25M59 25L73 14Q78 11 78 17L75 37" fill="#F2AD4B"/>
+    <path d="M24 29L23 20L32 27M64 27L73 20L72 30" fill="#D97C53" stroke="none"/>
+    <path d="M48 20C29 20 17 34 16 50L13 56L17 57C17 74 31 85 48 85C65 85 79 74 79 57L83 56L80 50C79 34 67 20 48 20Z" fill="#F2AD4B"/>
+    <path d="M20 53C26 48 32 51 38 56Q48 64 58 56C64 51 70 48 76 53C79 68 66 81 48 81C30 81 17 68 20 53Z" fill="#FFF0D3" stroke="none"/>
+    <ellipse cx="34" cy="39" rx="4.5" ry="2.7" fill="#FFF0D3" stroke="none"/>
+    <ellipse cx="62" cy="39" rx="4.5" ry="2.7" fill="#FFF0D3" stroke="none"/>
+    <ellipse cx="34" cy="48" rx="3.3" ry="4.3" fill="#68432D" stroke="none"/>
+    <ellipse cx="62" cy="48" rx="3.3" ry="4.3" fill="#68432D" stroke="none"/>
+    <g fill="#FFFFFF" stroke="none"><circle cx="35" cy="46.5" r="1.1"/><circle cx="63" cy="46.5" r="1.1"/></g>
+    <ellipse cx="26" cy="60" rx="4.7" ry="2.8" fill="#EC9C82" stroke="none"/>
+    <ellipse cx="70" cy="60" rx="4.7" ry="2.8" fill="#EC9C82" stroke="none"/>
+    <path d="M42 57Q48 54 54 57Q56 60 48 64Q40 60 42 57Z" fill="#463025" stroke="none"/>
+    <path d="M48 63V66Q42 72 37 66M48 66Q54 72 59 66" fill="none" stroke-width="2.6"/>
+  </g>
+</svg>

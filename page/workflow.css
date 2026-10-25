@@ -1,0 +1,103 @@
+/* Full-width desktop films. The six-step choreography is rendered into each clip. */
+.workflow-section {
+  position: relative;
+  isolation: isolate;
+  padding-block: 58px 62px;
+  border-top: 1px solid var(--line);
+}
+.workflow-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image: url("./assets/warning-pattern.svg");
+  background-size: 144px 128px;
+  background-repeat: repeat;
+  opacity: 0.12;
+}
+.workflow-heading {
+  width: 100%;
+}
+.workflow-heading h2 {
+  margin-top: 0;
+  font-size: clamp(21px, 2.6vw, 30px);
+  line-height: 1.65;
+}
+.workflow-method {
+  padding-inline: 3px;
+  color: #8a6336;
+  background: linear-gradient(transparent 58%, #f3e8d6 58%);
+  white-space: nowrap;
+}
+.workflow-figure {
+  width: 100%;
+  margin-top: 34px;
+}
+.workflow-film {
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #d8e0dc;
+  border-radius: 12px;
+  background: #edf1f5;
+  box-shadow: 0 12px 36px #183b270c;
+}
+.workflow-recording {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 128 / 69;
+  object-fit: contain;
+  pointer-events: none;
+}
+.workflow-figure figcaption {
+  margin-top: 22px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.95;
+}
+.workflow-count {
+  color: #8a6336;
+  font-weight: 650;
+}
+.workflow-loss {
+  color: var(--ink);
+  font-weight: 600;
+}
+.workflow-takeaway {
+  margin-top: 18px;
+  text-align: center;
+  font-size: clamp(24px, 3vw, 34px);
+  line-height: 1.6;
+  letter-spacing: -0.035em;
+}
+.workflow-takeaway strong {
+  font-weight: 650;
+}
+.workflow-one-step {
+  color: var(--green);
+  white-space: nowrap;
+}
+@media (max-width: 800px) {
+  .workflow-section {
+    padding-block: 45px;
+  }
+}
+@media (max-width: 580px) {
+  .workflow-section {
+    padding-block: 36px 40px;
+  }
+  .workflow-figure {
+    margin-top: 25px;
+  }
+  .workflow-film {
+    border-radius: 7px;
+  }
+  .workflow-figure figcaption {
+    margin-top: 17px;
+    font-size: 12px;
+  }
+  .workflow-takeaway {
+    margin-top: 14px;
+  }
+}

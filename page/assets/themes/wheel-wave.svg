@@ -1,0 +1,25 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="96"
+  height="96"
+  viewBox="0 0 96 96"
+>
+  <defs>
+    <clipPath id="circle"><circle cx="48" cy="48" r="46" /></clipPath>
+    <pattern id="stems" width="4" height="96" patternUnits="userSpaceOnUse">
+      <path d="M2 0v96" stroke="#ccc" stroke-width="0.8" />
+    </pattern>
+    <pattern id="middle" width="4" height="96" patternUnits="userSpaceOnUse">
+      <path d="M2 0v96" stroke="#eee" stroke-width="3.4" />
+    </pattern>
+    <pattern id="front" width="4" height="96" patternUnits="userSpaceOnUse">
+      <path d="M2 0v96" stroke="#ddd" stroke-width="2.2" />
+    </pattern>
+  </defs>
+  <g clip-path="url(#circle)" opacity="0.5">
+    <path d="M0 0h96v96H0z" fill="url(#stems)" />
+    <path d="M0 77C24 91 61 53 96 72V96H0Z" fill="#fff" />
+    <path d="M0 59C28 29 61 86 96 51V96H0Z" fill="url(#middle)" />
+    <path d="M0 42C28 76 60 21 96 43V96H0Z" fill="url(#front)" />
+  </g>
+</svg>
