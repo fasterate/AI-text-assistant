@@ -28,6 +28,13 @@
   font-size: 17px;
   line-height: 1.85;
 }
+.legal-scope {
+  max-width: 700px;
+  margin-top: 14px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.85;
+}
 
 .legal-meta {
   display: flex;
@@ -157,6 +164,40 @@
   text-decoration: underline;
   text-underline-offset: 3px;
 }
+.legal-table {
+  max-width: 100%;
+  margin-top: 16px;
+  overflow-x: auto;
+  border: 1px solid var(--line);
+}
+.legal-table:focus-visible {
+  outline: 3px solid var(--green);
+  outline-offset: 3px;
+}
+.legal-table table {
+  width: 100%;
+  min-width: 440px;
+  border-collapse: collapse;
+  font-size: 13px;
+  line-height: 1.8;
+}
+.legal-table th,
+.legal-table td {
+  padding: 12px 14px;
+  text-align: left;
+  vertical-align: top;
+}
+.legal-table th {
+  background: var(--surface);
+  font-weight: 650;
+}
+.legal-table tr + tr td,
+.legal-table tbody tr:first-child td {
+  border-top: 1px solid var(--line);
+}
+.legal-table + p {
+  margin-top: 13px;
+}
 
 .legal-contact {
   margin-top: 36px;
@@ -231,6 +272,10 @@
   }
   .legal-content h2 {
     font-size: 19px;
+  }
+  .legal-table table {
+    min-width: 0;
+    table-layout: fixed;
   }
   .legal-contact {
     padding: 18px;

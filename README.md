@@ -6,6 +6,8 @@ Static English and Chinese website for AI Text Assistant for Windows.
 - 中文: https://fasterate.github.io/zh/
 - Terms of service: https://fasterate.github.io/terms/
 - 服务条款: https://fasterate.github.io/zh/terms/
+- Privacy policy: https://fasterate.github.io/privacy/
+- 隐私政策: https://fasterate.github.io/zh/privacy/
 - Desktop application and downloads: https://github.com/0x140ED8/intelligent-writing-free
 
 ## Deploy
