@@ -37,6 +37,7 @@
     <link rel="stylesheet" href="./style.css" />
     <script src="./script.js?v=2" defer></script>
     <link rel="stylesheet" href="./workflow.css" />
+    <link rel="stylesheet" href="./pricing.css" />
     <script src="./workflow.js" defer></script>
   </head>
   <body>
@@ -99,7 +100,8 @@
         >
         <div class="navigation-actions">
           <div class="nav-links">
-            <a href="#getting-started">Get started</a><a href="#faq">FAQ</a
+            <a href="#pricing">Pricing</a
+            ><a href="#getting-started">Get started</a><a href="#faq">FAQ</a
             ><a
               class="github-link"
               href="https://github.com/0x140ED8/intelligent-writing-free"
@@ -110,6 +112,7 @@
               ><span>GitHub</span><span aria-hidden="true">↗</span></a
             >
           </div>
+          <a class="pricing-mobile-link" href="#pricing">Pricing</a>
           <nav class="language-switch" aria-label="Page language">
             <a href="./zh/" lang="zh-CN" hreflang="zh-CN">中文</a
             ><a href="./" lang="en" hreflang="en" aria-current="page"
@@ -142,9 +145,12 @@
               rel="noopener noreferrer"
               ><svg class="icon" aria-hidden="true">
                 <use href="#icon-download" /></svg
-              >Download<svg class="icon button-arrow" aria-hidden="true">
+              >Download Free<svg class="icon button-arrow" aria-hidden="true">
                 <use href="#icon-arrow" /></svg
             ></a>
+            <a class="pricing-hero-link" href="#pricing"
+              >Free $0 · Paid $5 one-time</a
+            >
           </div>
           <p class="platform-note">
             <svg class="icon" aria-hidden="true">
@@ -155,7 +161,7 @@
         </div>
         <figure class="demo video-demo" aria-labelledby="demo-label">
           <figcaption class="demo-label" id="demo-label">
-            Feature demo · Multiple themes
+            Feature demo · Includes Paid features
           </figcaption>
           <div class="video-screen">
             <video
@@ -274,7 +280,7 @@
         aria-labelledby="themes-title"
       >
         <div class="themes-copy">
-          <p class="section-label">Personal themes</p>
+          <p class="section-label">Personal themes · Included in Paid</p>
           <h2 id="themes-title">A theme for your mood</h2>
           <p class="themes-description">
             Light, Dark, and three character themes for the app, shortcut wheel,
@@ -447,6 +453,11 @@
           <p>
             From editing text to working with source material, keep your ideas
             and habits at the center
+          </p>
+          <p class="paid-feature-note">
+            Local OCR, screenshot input, the shortcut wheel, and quick scenario
+            switching are included in Paid.
+            <a href="#pricing">Compare editions</a>
           </p>
         </div>
         <div class="feature-grid">
@@ -643,6 +654,125 @@
         </figure>
       </section>
       <section
+        class="pricing-section container"
+        id="pricing"
+        aria-labelledby="pricing-title"
+      >
+        <div class="pricing-heading">
+          <p class="section-label">Choose your edition</p>
+          <h2 id="pricing-title">Start free. Add more ways to work</h2>
+          <p>
+            Free covers everyday text tasks. Paid adds five workflow features
+            for a single payment of US$5.
+          </p>
+        </div>
+        <div class="pricing-plans">
+          <article class="pricing-plan" aria-labelledby="free-plan-title">
+            <h3 id="free-plan-title">Free</h3>
+            <p class="plan-price">$0<span>USD</span></p>
+            <p class="plan-payment">No software purchase required</p>
+            <p>
+              Rewrite, continue, draft, translate, answer questions, and use
+              basic text chat with your own model API.
+            </p>
+            <a
+              class="button button-primary"
+              href="https://github.com/0x140ED8/intelligent-writing-free/releases"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Download Free</a
+            >
+          </article>
+          <article
+            class="pricing-plan pricing-plan-paid"
+            aria-labelledby="paid-plan-title"
+          >
+            <h3 id="paid-plan-title">Paid</h3>
+            <p class="plan-price">$5<span>USD</span></p>
+            <p class="plan-payment">One-time purchase · One device</p>
+            <p>
+              Everything in Free, plus personal themes, local OCR, screenshot
+              input, the shortcut wheel, and quick scenario switching.
+            </p>
+            <p>
+              Perpetual use on the device for which you purchase the license,
+              including all future publicly released version updates. A separate
+              device requires a separate license.
+            </p>
+            <a class="button button-primary" href="#customer-support"
+              >Ask about purchase</a
+            >
+            <p class="plan-purchase-note">
+              Contact the official support email in the footer for purchase
+              information.
+            </p>
+          </article>
+        </div>
+        <div class="pricing-comparison">
+          <table>
+            <caption>
+              What's included
+            </caption>
+            <thead>
+              <tr>
+                <th scope="col">Feature</th>
+                <th scope="col">Free</th>
+                <th scope="col">Paid</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Core text tools and basic text chat</th>
+                <td>Included</td>
+                <td>Included</td>
+              </tr>
+              <tr>
+                <th scope="row">Personal themes</th>
+                <td>Not included</td>
+                <td>Included</td>
+              </tr>
+              <tr>
+                <th scope="row">Local OCR</th>
+                <td>Not included</td>
+                <td>Included</td>
+              </tr>
+              <tr>
+                <th scope="row">Screenshot input</th>
+                <td>Not included</td>
+                <td>Included</td>
+              </tr>
+              <tr>
+                <th scope="row">Shortcut wheel</th>
+                <td>Not included</td>
+                <td>Included</td>
+              </tr>
+              <tr>
+                <th scope="row">Quick scenario switching</th>
+                <td>Not included</td>
+                <td>Included</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="pricing-notes">
+          <p>
+            Both editions require your own compatible model API. Model usage
+            fees are paid separately to your provider and are not included in
+            the software price.
+          </p>
+          <p>
+            The Paid license costs US$5 once, with no subscription or automatic
+            renewal. Any applicable taxes and the final total are shown before
+            payment.
+          </p>
+          <p>
+            Review the <a href="./terms/">Terms of service</a>, including the
+            digital-delivery and refund policy, and our
+            <a href="./privacy/">Privacy policy</a> before purchasing.
+          </p>
+        </div>
+      </section>
+      <section
         class="getting-started container"
         id="getting-started"
         aria-labelledby="start-title"
@@ -767,6 +897,7 @@
       >
       <p>A little help for every thought worth putting into words</p>
       <nav class="footer-links" aria-label="Footer navigation">
+        <a href="#pricing">Pricing</a>
         <a href="./terms/">Terms of service</a>
         <a href="./privacy/">Privacy policy</a>
         <a
@@ -776,6 +907,10 @@
           >Feedback &amp; suggestions <span aria-hidden="true">↗</span></a
         >
       </nav>
+      <address id="customer-support" class="footer-support">
+        <span>Official customer support · Orders and product help</span>
+        <a href="mailto:lj188640@gmail.com">lj188640@gmail.com</a>
+      </address>
     </footer>
   </body>
 </html>
